@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body,
+#root,
+#svgContainer {
+  min-width: 100vw;
+  width: max-content;
+}
+
+body {
+  position: relative;
+}
