@@ -72,7 +72,8 @@ function App() {
       .style("background-color", "rgba(0,0,0,0.7)")
       .style("color", "white")
       .style("border-radius", "5px")
-      .style("padding", "10px");
+      .style("padding", "10px")
+      .style("text-align", "center");
     const yearMonth = tooltip.append("p").style("margin", 0);
     const ttemp = tooltip.append("p").style("margin", 0);
     const tvarience = tooltip.append("p").style("margin", 0);
